@@ -4,15 +4,13 @@
 
 #  PTERODACTYL PANEL UPDATER - NEXT GEN ULTRA EDITION
 
-#                     2025 Edition
+#                     2026 Edition
 
 # ===================================================
 
-#  Original Creator: MahimOp
+#  Original Creator: ShadowOP
 
-#  YouTube : https://www.youtube.com/@mahimxyz
-
-#  Discord : https://discord.gg/zkDNdPpArS
+#  YouTube : https://www.youtube.com/@ShadowCraftMC_YT
 
 # ===================================================
 
@@ -58,41 +56,29 @@ echo -e "${NEON_BLUE}"
 
 cat << "EOF"
 
-   _____  _                          __            __ 
-
-  / ___/(_)_____________  _________/ /_____ _____/ /_
-
-  \__ \/ / ___/ ___/ __ \/ ___/ __  / __/ __ `/ __  / 
-
- ___/ / / /__/ /  / /_/ / /  / /_/ / /_/ /_/ / /_/ /  
-
-/____/_/\___/_/   \____/_/   \__,_/\__/\__,_/\__,_/   
+    ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
 
                                                      
 
-       _   _   ____  ____   _   _   _____   ____  
-
-      | | | | / __ \|  _ \ | | | | |  __ \ / __ \ 
-
-      | | | || |  | | |_) || | | | | |__) | |  | |
-
-      | | | || |  | |  __/ | | | | |  ___/| |  | |
-
-      | |_| || |__| | |    | |_| | | |    | |__| |
-
-       \____/ \____/|_|     \___/  |_|     \____/ 
+        ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
 
                                                   
 
 EOF
 
-echo -e "${NEON_PURPLE}${BOLD}             NEXT GEN ULTRA EDITION - 2025${RESET}"
+echo -e "${NEON_PURPLE}${BOLD}             NEXT GEN ULTRA EDITION - 2026${RESET}"
 
 echo -e "${GLOW}           Seamless • Zero-Downtime • Future-Proof${RESET}"
 
-echo -e "${DIM}      Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-
-echo -e "${DIM}      Discord: https://discord.gg/zkDNdPpArS${RESET}"
+echo -e "${DIM}      Original Creator: ${BOLD}ShadowOP${RESET} ${DIM}| YouTube: @ShadowCraftMC_YT${RESET}"
 
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 
@@ -196,16 +182,11 @@ echo -e "${NEON_BLUE}"
 
 cat << "EOF"
 
-   __  __      __  __      __      __   __   __   __  
-
-  / _|/  \    /  |/  \    /  \    /  | /  \ /  | /  |
-
- |   | /\ \  |   | /\ \  |    \  |   | |   | |  | |  |
-
- |   | \/  | |   | \/  |  \__  \ |   | |   | |  | |  |
-
-  \__|\__/ /  \__|\__/ /  ____/  |___| |___| |__| |__|
-
+    ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
                                                      
 
 EOF
@@ -242,11 +223,9 @@ echo -e "   ${NEON_GREEN}•${RESET} Check the admin area for new features/chang
 
 echo -e "   ${NEON_GREEN}•${RESET} Monitor servers and logs for any issues\n"
 
-echo -e "${NEON_GREEN}${BOLD}Original Credits: MahimOp${RESET}"
+echo -e "${NEON_GREEN}${BOLD}Original Credits: ShadowOP${RESET}"
 
-echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-
-echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
+echo -e "${DIM}YouTube: https://www.youtube.com/@ShadowCraftMC_YT${RESET}"
 
 echo -e "${GLOW}${BOLD}Enjoy the upgraded experience! 🦅✨${RESET}"
 
