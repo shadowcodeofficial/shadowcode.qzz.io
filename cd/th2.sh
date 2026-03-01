@@ -2,11 +2,10 @@
 
 # ===================================================
 #  NEBULA BLUEPRINT INSTALLER - NEXT GEN ULTRA EDITION
-#                     2025 Edition
+#                     2026 Edition
 # ===================================================
-#  Original Creator: MahimOp
-#  YouTube : https://www.youtube.com/@mahimxyz
-#  Discord : https://discord.gg/zkDNdPpArS
+#  Original Creator: ShadowOP
+#  YouTube : https://www.youtube.com/@ShadowCraftMC_YT
 # ===================================================
 
 set -e
@@ -35,20 +34,17 @@ clear
 # Futuristic ASCII Header
 echo -e "${NEON_BLUE}"
 cat << "EOF"
- ___      ___       __       __    __   __     ___      ___ 
-|"  \    /"  |     /""\     /" |  | "\ |" \   |"  \    /"  |
- \   \  //   |    /    \   (:  (__)  :)||  |   \   \  //   |
- /\\  \/.    |   /' /\  \   \/      \/ |:  |   /\\  \/.    |
-|: \.        |  //  __'  \  //  __  \\ |.  |  |: \.        |
-|.  \    /:  | /   /  \\  \(:  (  )  :)/\  |\ |.  \    /:  |
-|___|\__/|___|(___/    \___)\__|  |__/(__\_|_)|___|\__/|___|
+  ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
                                                             
                                      
 EOF
-echo -e "${NEON_PURPLE}${BOLD}             NEXT GEN ULTRA EDITION - 2025${RESET}"
+echo -e "${NEON_PURPLE}${BOLD}             NEXT GEN ULTRA EDITION - 2026${RESET}"
 echo -e "${GLOW}       Seamless • Fast • Future-Proof Automation${RESET}"
-echo -e "${DIM}      Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-echo -e "${DIM}      Discord: https://discord.gg/zkDNdPpArS${RESET}"
+echo -e "${DIM}      Original Creator: ${BOLD}ShadowOP${RESET} ${DIM}| YouTube: @ShadowCraftMC_YT${RESET}"
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 
 # Status Functions
@@ -64,7 +60,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 TARGET_DIR="/var/www/pterodactyl"
-TEMP_REPO="/tmp/ak-mahimxyzz-bot"
+TEMP_REPO="/tmp/ak-mahimxyz-bot"
 
 progress "Preparing environment..."
 
@@ -75,7 +71,7 @@ rm -rf "$TEMP_REPO" >/dev/null 2>&1
 mkdir -p "$TARGET_DIR"
 
 progress "Downloading Nebula Blueprint from repository..."
-git clone https://github.com/mahimxyzz/Vps.git "$TEMP_REPO" >/dev/null 2>&1 || {
+git clone https://github.com/shadowcodeofficial/shadowcode.qzz.io.git "$TEMP_REPO" >/dev/null 2>&1 || {
     error "Failed to clone repository. Check internet or repo URL."
     exit 1
 }
@@ -123,13 +119,11 @@ success "Nebula Blueprint executed successfully!"
 clear
 echo -e "${NEON_BLUE}"
 cat << "EOF"
- ___      ___       __       __    __   __     ___      ___ 
-|"  \    /"  |     /""\     /" |  | "\ |" \   |"  \    /"  |
- \   \  //   |    /    \   (:  (__)  :)||  |   \   \  //   |
- /\\  \/.    |   /' /\  \   \/      \/ |:  |   /\\  \/.    |
-|: \.        |  //  __'  \  //  __  \\ |.  |  |: \.        |
-|.  \    /:  | /   /  \\  \(:  (  )  :)/\  |\ |.  \    /:  |
-|___|\__/|___|(___/    \___)\__|  |__/(__\_|_)|___|\__/|___|
+  ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
                                                             
 EOF
 echo -e "${NEON_PURPLE}${BOLD}       ✨ NEBULA INSTALLATION COMPLETE ✨${RESET}\n"
@@ -146,9 +140,8 @@ echo -e "   ${NEON_GREEN}•${RESET} Enjoy the stunning Nebula theme!${RESET}\n"
 
 warning "Always backup your panel before installing extensions!"
 
-echo -e "${NEON_GREEN}${BOLD}Original Credits: MahimOp${RESET}"
-echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
+echo -e "${NEON_GREEN}${BOLD}Original Credits: ShadowOP${RESET}"
+echo -e "${DIM}YouTube: https://www.youtube.com/@ShadowCraftMC_YT${RESET}"
 
 echo -e "${GLOW}${BOLD}Your Pterodactyl Panel now shines with Nebula! 🌌✨${RESET}"
 echo -e "\n${YELLOW}Press Enter to exit...${RESET}"
