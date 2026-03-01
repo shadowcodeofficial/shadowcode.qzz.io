@@ -1,11 +1,10 @@
 #!/bin/bash
 # ===================================================
 # PTERODACTYL PANEL INSTALLER - NEXT GEN EDITION
-# Ultra Edition (2025)
+# Ultra Edition (2026)
 # ===================================================
-# Original Creator: MahimOp
-# YouTube : https://www.youtube.com/@mahimxyz
-# Discord : https://discord.gg/zkDNdPpArS
+# Original Creator: ShadowOP
+# YouTube : https://www.youtube.com/@ShadowCraftMC_YT
 # ===================================================
 set -e
 # Color Palette - Next Gen Theme
@@ -31,19 +30,16 @@ clear
 # Epic Header Animation
 echo -e "${DANGER}"
 cat << "EOF"
- ___      ___       __       __    __   __     ___      ___ 
-|"  \    /"  |     /""\     /" |  | "\ |" \   |"  \    /"  |
- \   \  //   |    /    \   (:  (__)  :)||  |   \   \  //   |
- /\\  \/.    |   /' /\  \   \/      \/ |:  |   /\\  \/.    |
-|: \.        |  //  __'  \  //  __  \\ |.  |  |: \.        |
-|.  \    /:  | /   /  \\  \(:  (  )  :)/\  |\ |.  \    /:  |
-|___|\__/|___|(___/    \___)\__|  |__/(__\_|_)|___|\__/|___|
+  ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
                                                             
                                                     
 EOF
-echo -e "${NEON_PURPLE}${BOLD} NEXT GEN ULTRA EDITION - 2025${RESET}"
-echo -e "${DIM} Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-echo -e "${DIM} Discord: https://discord.gg/zkDNdPpArS${RESET}"
+echo -e "${NEON_PURPLE}${BOLD} NEXT GEN ULTRA EDITION - 2026${RESET}"
+echo -e "${DIM} Original Creator: ${BOLD}ShadowOP${RESET} ${DIM}| YouTube: @ShadowCraftMC_YT${RESET}"
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 # Domain Input with Style
 echo -e "${CYAN}${BOLD}▶ Setup Configuration${RESET}"
@@ -230,13 +226,11 @@ echo "APP_ENVIRONMENT_ONLY=false" >> .env
 clear
 echo -e "${DANGER}"
 cat << "EOF"
- ___      ___       __       __    __   __     ___      ___ 
-|"  \    /"  |     /""\     /" |  | "\ |" \   |"  \    /"  |
- \   \  //   |    /    \   (:  (__)  :)||  |   \   \  //   |
- /\\  \/.    |   /' /\  \   \/      \/ |:  |   /\\  \/.    |
-|: \.        |  //  __'  \  //  __  \\ |.  |  |: \.        |
-|.  \    /:  | /   /  \\  \(:  (  )  :)/\  |\ |.  \    /:  |
-|___|\__/|___|(___/    \___)\__|  |__/(__\_|_)|___|\__/|___|
+  ____    _   _      _      ____     ___   __        __
+/ ___|  | | | |    / \    |  _ \   / _ \  \ \      / /
+\___ \  | |_| |   / _ \   | | | | | | | |  \ \ /\ / / 
+ ___) | |  _  |  / ___ \  | |_| | | |_| |   \ V  V /  
+|____/  |_| |_| /_/   \_\ |____/   \___/     \_/\_/   
                                                             
                                           
 EOF
@@ -254,7 +248,6 @@ echo -e " ${BOLD}Username:${RESET} ${WHITE}${DB_USER}${RESET}"
 echo -e " ${BOLD}Password:${RESET} ${WHITE}${DB_PASS}${RESET}\n"
 warning "For production: Replace self-signed cert with Let's Encrypt (certbot)"
 echo -e "${DIM}Tip: sudo apt install certbot python3-certbot-nginx && sudo certbot --nginx -d ${DOMAIN}${RESET}\n"
-echo -e "${NEON_GREEN}${BOLD}Original Credits: MahimOp${RESET}"
-echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
+echo -e "${NEON_GREEN}${BOLD}Original Credits: ShadowOP${RESET}"
+echo -e "${DIM}YouTube: https://www.youtube.com/@ShadowCraftMC_YT${RESET}"
 echo -e "${GLOW}${BOLD}Your Next-Gen Pterodactyl Panel is ready to soar! 🦅🚀${RESET}"
