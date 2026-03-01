@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# === Cloudflared Installation Script ===
+# === Cloudflared Setup Script ===
 # Made by MahimOp
-# YouTube: https://youtube.com/@mahimxyz
-# Discord: https://discord.gg/EHBvzYbh57
+# YouTube: https://youtube.com/@ShadowCraftMC_YT
 # Compatible with Debian/Ubuntu-based systems
 
 set -euo pipefail  # Fail on errors, unset variables, and pipeline failures
@@ -21,10 +20,9 @@ NC="\033[0m" # No Color
 
 # Fancy header
 echo -e "${BLUE}${BOLD}╔══════════════════════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}${BOLD}║          Cloudflared Installation Script                 ║${NC}"
-echo -e "${BLUE}${BOLD}║              Made by MahimOp                             ║${NC}"
-echo -e "${BLUE}${BOLD}║    YouTube: youtube.com/@mahimxyz                        ║${NC}"
-echo -e "${BLUE}${BOLD}║    Discord: discord.gg/EHBvzYbh57                        ║${NC}"
+echo -e "${BLUE}${BOLD}║          Cloudflared Installation Script                            ║${NC}"
+echo -e "${BLUE}${BOLD}║              Made by ShadowOP                                       ║${NC}"
+echo -e "${BLUE}${BOLD}║    YouTube: youtube.com/@ShadowCraftMC_YT.                     
 echo -e "${BLUE}${BOLD}╚══════════════════════════════════════════════════════════╝${NC}"
 echo -e "${MAGENTA}${BOLD}[*] Starting installation process...${NC}\n"
 
