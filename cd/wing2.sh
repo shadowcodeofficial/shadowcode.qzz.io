@@ -72,13 +72,12 @@ echo -e "${B_BLUE}
 ║   ${B_PURPLE}╚═╝        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝      ${B_BLUE}║
 ║                                                              ║
 ║            ${B_WHITE}${BOLD}PTERODACTYL WINGS SETUP SCRIPT${B_BLUE}            ║
-║                   ${B_CYAN}${BOLD}Powered by MahimOp${B_BLUE}                   ║
+║                   ${B_CYAN}${BOLD}Powered by ShadowOP${B_BLUE}                   ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝${NC}
 "
 
-echo -e "      ${B_CYAN}${BOLD}✨ Script created & maintained by MahimOp ✨${NC}"
-echo -e "      ${B_PURPLE}${BOLD}📩 Discord Support: https://discord.gg/EHBvzYbh57${NC}\n"
+echo -e "      ${B_CYAN}${BOLD}✨ Script created & maintained by ShadowOP ✨${NC}"
 
 if [ "$EUID" -ne 0 ]; then
     print_error "This script must be run as root! Use sudo."
@@ -255,8 +254,6 @@ fi
 echo -e "${B_BLUE}
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║         ${B_WHITE}${BOLD}Thank you for using MahimOp's Wings Script!${B_BLUE}         ║
-║                ${B_CYAN}${BOLD}Join the community & get support:${B_BLUE}                ║
-║     ${B_PURPLE}${BOLD}https://discord.gg/EHBvzYbh57${B_BLUE}     ║
+║         ${B_WHITE}${BOLD}Thank you for using ShadowOP's Wings Script!${B_BLUE}         ║             ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝${NC}"
