@@ -3,7 +3,7 @@ set -euo pipefail
 
 # ================================
 #  Debian 11 XRDP + XFCE Installer
-#  Made by MahimOp
+#  Made by ShadowOP
 # ================================
 
 # -------- Colors --------
